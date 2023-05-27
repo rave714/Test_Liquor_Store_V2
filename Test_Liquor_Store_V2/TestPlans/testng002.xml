@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<test name="Test">
+		<parameter name="browser" value="chrome" />
+		
+		
+		
+		<classes>
+		
+			<class name="automation.tests.HomeTest">
+				<methods>
+					<include name="test1" />
+				</methods>
+			</class>
+		
+			<class name="automation.tests.RegisterTest">
+				<methods>
+					<include name="test01" />
+				</methods>
+			</class>
+			<class name="automation.tests.StoreLoginTest">
+				<methods>
+					<include name="test001" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
